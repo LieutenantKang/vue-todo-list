@@ -46,6 +46,9 @@
        margin-right: 5px;
    }
    .removeBtn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
        margin-left: auto;
        color: #de4343;
    }

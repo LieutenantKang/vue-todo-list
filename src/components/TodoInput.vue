@@ -50,19 +50,23 @@
         outline: none;
     }
     .inputBox{
+        display: flex;
         background: white;
         height: 50px;
         line-height: 50px;
         border-radius: 5px;
     }
     .inputBox input{
+        flex: 1;
+        text-align: center;
         border-style: none;
         font-size: 0.9rem;
     }
     .addContainer{
-        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background: linear-gradient(to right, #6478FB, #8763FB);
-        display: inline-block;
         width: 3rem;
         border-radius: 0 5px 5px 0;
     }
